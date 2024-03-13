@@ -12,6 +12,37 @@ body {
   padding: 30px;
   border-radius: 16px;
 }
+header {
+  border-bottom: 1px solid #dee0f2;
+  padding: 0 0 30px;
+}
+a {
+  color: rgb(0, 187, 255);
+}
 h1 {
   font-family: "Roboto", sans-serif;
+}
+.search-engine-input {
+  background-color: #e3f6ff;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  width: 70%;
+  font-size: 16px;
+}
+.search-engine-button {
+  background-color: rgb(255, 247, 0);
+  border-radius: 6px;
+  padding: 15px 30px;
+  width: 25%;
+  font-size: 16px;
+  border: none;
+  margin-left: 5px;
+}
+footer {
+  border-top: 1px solid #dee0f2;
+  padding: 30px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
