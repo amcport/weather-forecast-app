@@ -1,16 +1,23 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/961/original/billy-huynh-v9bnfMCyKbg-unsplash.jpg?1710403966);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 body {
-  background-color: #b9e6fd;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  display: block;
+  margin: 8px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
-.weather-app {
-  background-color: white;
-  max-width: 600px;
-  margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+main {
   padding: 30px;
-  border-radius: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 header {
   border-bottom: 1px solid #dee0f2;
@@ -19,8 +26,13 @@ header {
 a {
   color: rgb(0, 187, 255);
 }
-h1 {
-  font-family: "Roboto", sans-serif;
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 30px;
+  border-radius: 16px;
 }
 .search-engine-input {
   background-color: #e3f6ff;
@@ -31,13 +43,49 @@ h1 {
   font-size: 16px;
 }
 .search-engine-button {
-  background-color: rgb(255, 247, 0);
+  background-color: #f4d4bb;
   border-radius: 6px;
   padding: 15px 30px;
   width: 25%;
   font-size: 16px;
   border: none;
   margin-left: 5px;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  font-size: 38px;
+  line-height: 48px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: #eea974;
+}
+.weather-app-details strong {
+  color: #0c364a;
+}
+.weather-app-temp-container {
+  display: flex;
+}
+.weather-app-temp-value {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.weather-app-unit {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
 }
 footer {
   border-top: 1px solid #dee0f2;
