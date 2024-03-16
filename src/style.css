@@ -94,15 +94,29 @@ footer {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
 }
-@media (max-width: 768px) {
+/* Styles for mobile devices */
+@media only screen and (max-width: 480px) {
   .weather-app {
-    max-width: 100%;
+    max-width: 90%;
     margin: 20px auto;
+    padding: 20px;
   }
   .search-engine-input {
-    width: 60%;
+    width: calc(100% - 10px);
   }
   .search-engine-button {
-    width: 35%;
+    width: calc(100% - 10px);
+    margin-top: 10px;
+  }
+  .weather-app-data {
+    flex-direction: column;
+    align-items: center;
+  }
+  .weather-app-temp-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .weather-app-temp-value {
+    font-size: 60px;
   }
 }
