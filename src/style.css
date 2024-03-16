@@ -110,11 +110,11 @@ footer {
   }
   .weather-app-data {
     flex-direction: row;
-    align-items: baseline; /* Align items to the baseline to align their baselines */
+    align-items: baseline;
   }
   .weather-app-temp-container {
     flex-direction: row;
-    align-items: baseline; /* Align items to the baseline to align their baselines */
+    align-items: baseline;
   }
   .weather-app-temp-value {
     font-size: 60px;
@@ -124,10 +124,12 @@ footer {
     margin-right: 10px;
   }
   .weather-app-city {
-    font-size: 48px; /* Adjusted font size for the city */
+    font-size: 40px;
   }
   footer {
     background-size: cover;
     background-position: center;
+    background-image: none;
+    background-color: #8ec5f1;
   }
 }
