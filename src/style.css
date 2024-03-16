@@ -126,10 +126,13 @@ footer {
   .weather-app-city {
     font-size: 40px;
   }
+  html,
+  body {
+    background-image: none;
+    background-color: #8ec5f1;
+  }
   footer {
     background-size: cover;
     background-position: center;
-    background-image: none;
-    background-color: #8ec5f1;
   }
 }
