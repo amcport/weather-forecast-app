@@ -109,14 +109,22 @@ footer {
     margin-top: 10px;
   }
   .weather-app-data {
-    flex-direction: column;
+    flex-direction: row; /* Change to row to display items side by side */
     align-items: center;
   }
   .weather-app-temp-container {
-    flex-direction: column;
+    flex-direction: row; /* Change to row to display items side by side */
     align-items: center;
   }
   .weather-app-temp-value {
     font-size: 60px;
+  }
+  .weather-app-icon {
+    margin-top: 0;
+    margin-right: 10px; /* Add margin between icon and temperature value */
+  }
+  footer {
+    background-size: cover; /* Adjust background image to cover entire area */
+    background-position: center; /* Center the background image */
   }
 }
