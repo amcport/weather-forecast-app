@@ -117,7 +117,7 @@ footer {
     align-items: baseline;
   }
   .weather-app-temp-value {
-    font-size: 60px;
+    font-size: 40px;
   }
   .weather-app-icon {
     margin-top: 0;
@@ -125,6 +125,9 @@ footer {
   }
   .weather-app-city {
     font-size: 40px;
+  }
+  .weather-app-details {
+    white-space: nowrap; /* Prevent line breaks */
   }
   html,
   body {
