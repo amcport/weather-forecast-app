@@ -56,7 +56,7 @@ a {
   justify-content: space-between;
 }
 .weather-app-city {
-  font-size: 38px;
+  font-size: 60px;
   line-height: 48px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
