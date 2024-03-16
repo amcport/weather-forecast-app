@@ -132,7 +132,7 @@ footer {
     font-size: 40px;
   }
   .weather-app-details {
-    white-space: nowrap; /* Prevent line breaks */
+    white-space: nowrap;
   }
   html,
   body {
