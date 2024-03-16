@@ -108,12 +108,15 @@ footer {
     width: calc(100% - 10px);
     margin-top: 10px;
   }
+  .weather-app-city {
+    font-size: 48px;
+  }
   .weather-app-data {
-    flex-direction: row; /* Change to row to display items side by side */
+    flex-direction: row;
     align-items: center;
   }
   .weather-app-temp-container {
-    flex-direction: row; /* Change to row to display items side by side */
+    flex-direction: row;
     align-items: center;
   }
   .weather-app-temp-value {
@@ -121,10 +124,10 @@ footer {
   }
   .weather-app-icon {
     margin-top: 0;
-    margin-right: 10px; /* Add margin between icon and temperature value */
+    margin-right: 10px;
   }
   footer {
-    background-size: cover; /* Adjust background image to cover entire area */
-    background-position: center; /* Center the background image */
+    background-size: cover;
+    background-position: center;
   }
 }
