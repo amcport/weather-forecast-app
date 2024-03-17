@@ -119,23 +119,23 @@ footer {
   .weather-app-temp-container {
     flex-direction: row;
     align-items: baseline;
-    justify-content: center; /* Center align the items */
+    justify-content: space-between;
   }
   .weather-app-temp-value {
     font-size: 40px;
-    margin-right: 10px;
-    margin-left: 10px; /* Adjust the left margin */
+    margin-right: 30px;
+    margin-left: 10px;
   }
   .weather-app-unit {
     font-size: 28px;
     margin-top: 20px;
-    margin-left: 10px; /* Adjust the left margin */
+    margin-right: 20px;
   }
   .weather-app-icon {
     width: 68px;
     height: 68px;
-    margin-right: 10px;
-    margin-left: 10px; /* Adjust the left margin */
+    margin-right: 40px;
+    margin-left: 10px;
   }
   .weather-app-city {
     font-size: 40px;
