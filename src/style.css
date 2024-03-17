@@ -121,19 +121,16 @@ footer {
   }
   .weather-app-temp-value {
     font-size: 40px;
-    margin-left: -20px; /* Adjusted margin-left */
+    margin-right: 10px;
   }
   .weather-app-unit {
     font-size: 28px;
-    margin-top: 20px; /* Adjusted margin-top */
-    margin-left: -20px; /* Adjusted margin-left */
+    margin-top: 20px;
   }
   .weather-app-icon {
-    width: 68px; /* Adjusted width */
-    height: 68px; /* Adjusted height */
-    margin-top: 20px; /* Adjusted margin-top */
+    width: 68px;
+    height: 68px;
     margin-right: 10px;
-    margin-left: -20px; /* Adjusted margin-left */
   }
   .weather-app-city {
     font-size: 40px;
@@ -144,7 +141,7 @@ footer {
   html,
   body {
     background-image: none;
-    background-color: #8ec5f1;
+    background-color: #98bcd8;
   }
   footer {
     background-size: cover;
