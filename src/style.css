@@ -78,13 +78,16 @@ a {
   font-size: 88px;
   margin-left: 10px;
   font-weight: bold;
-}
-.weather-app-unit {
-  font-size: 20px;
+  line-height: 88px;
   margin-top: 20px;
 }
+.weather-app-unit {
+  font-size: 28px;
+  margin-top: 25px;
+}
 .weather-app-icon {
-  font-size: 44px;
+  width: 88px;
+  height: 88px;
   margin-top: 22px;
 }
 footer {
@@ -118,6 +121,9 @@ footer {
   }
   .weather-app-temp-value {
     font-size: 40px;
+    margin-left: -10px;
+  }
+  .weather-app-unit {
     margin-left: -10px;
   }
   .weather-app-icon {
