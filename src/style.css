@@ -128,6 +128,10 @@ footer {
   .weather-app-icon {
     margin: 0 5px;
   }
+  .weather-app-temp-value {
+    font-size: 40px;
+    color: #4a8ec7;
+  }
   .weather-app-city {
     font-size: 60px;
     margin-bottom: 5px;
