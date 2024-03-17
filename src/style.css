@@ -114,23 +114,28 @@ footer {
   .weather-app-data {
     flex-direction: row;
     align-items: baseline;
+    justify-content: center; /* Center align the items */
   }
   .weather-app-temp-container {
     flex-direction: row;
     align-items: baseline;
+    justify-content: center; /* Center align the items */
   }
   .weather-app-temp-value {
     font-size: 40px;
     margin-right: 10px;
+    margin-left: 10px; /* Adjust the left margin */
   }
   .weather-app-unit {
     font-size: 28px;
     margin-top: 20px;
+    margin-left: 10px; /* Adjust the left margin */
   }
   .weather-app-icon {
     width: 68px;
     height: 68px;
     margin-right: 10px;
+    margin-left: 10px; /* Adjust the left margin */
   }
   .weather-app-city {
     font-size: 40px;
@@ -141,7 +146,7 @@ footer {
   html,
   body {
     background-image: none;
-    background-color: #98bcd8;
+    background-color: #8ec5f1;
   }
   footer {
     background-size: cover;
