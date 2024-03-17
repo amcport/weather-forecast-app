@@ -131,6 +131,7 @@ footer {
   .weather-app-city {
     font-size: 40px;
     margin-bottom: 5px;
+    text-align: center;
   }
   .weather-app-details {
     font-size: 16px;
