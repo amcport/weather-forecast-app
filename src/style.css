@@ -119,7 +119,6 @@ footer {
   .weather-app-temp-container {
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
   }
   .weather-app-temp-value {
     font-size: 40px;
