@@ -120,14 +120,10 @@ footer {
     max-width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background: linear-gradient(
-      63deg,
-      rgb(242, 168, 168) 2.9%,
-      rgb(94, 46, 165) 102.1%
-    );
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/961/original/billy-huynh-v9bnfMCyKbg-unsplash.jpg?1710403966);
   }
   a {
-    color: rgb(255, 0, 225);
+    color: rgb(106, 0, 255);
   }
   .search-engine-input {
     width: calc(100% - 10px);
@@ -163,19 +159,22 @@ footer {
   }
   .weather-app-temp-value {
     font-size: 80px;
-    color: #8ec5f1;
+    color: #dffbff;
   }
   .weather-app-city {
     font-size: 60px;
     margin-bottom: 5px;
     text-align: center;
-    color: #cfe4f0;
+    color: #185d85;
   }
   .weather-app-details {
     font-size: 18px;
     line-height: 20px;
-    color: #f4d4bb;
+    color: #dffbff;
     text-align: center;
+  }
+  .daily-high {
+    color: #dffbff;
   }
   html,
   body {
