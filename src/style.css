@@ -117,7 +117,7 @@ footer {
 /* Styles for mobile devices */
 @media only screen and (max-width: 480px) {
   .weather-app {
-    max-width: 75%;
+    max-width: 80%;
     margin: 20px auto;
     padding: 20px;
     background: linear-gradient(
