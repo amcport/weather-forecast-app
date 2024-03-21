@@ -86,8 +86,7 @@ a {
   margin-top: 25px;
 }
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
+  width: 100%;
   margin-top: 22px;
 }
 .weather-forecast {
@@ -102,6 +101,10 @@ a {
 }
 .daily-low {
   opacity: 0.6;
+}
+.weather-forecast-icon {
+  width: 95%;
+  text-align: center;
 }
 footer {
   border-top: 1px solid #dee0f2;
